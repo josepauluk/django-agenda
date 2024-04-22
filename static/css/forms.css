@@ -1,0 +1,42 @@
+input {
+    outline: none;
+    box-shadow: none;
+    border: 1 px solid var(--color-text);
+    padding: 5px;
+    width: 100%;
+}
+
+.btn-form {
+    width: 80%;
+    background-color: #9c9c9c;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;    
+    outline: none;
+    border: none;
+    box-shadow: 0;
+    cursor: pointer;
+}
+
+.btn-form:hover {
+    background-color: var(--color-text);
+    transition: 0.3s;
+}
+
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btns-aux-form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.btns-aux-form a {
+    padding-right: 10px;
+    text-decoration: none;    
+}
